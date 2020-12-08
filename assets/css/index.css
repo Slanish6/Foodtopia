@@ -1,0 +1,67 @@
+body{
+  background-color: #0b1e25;
+}
+
+
+.navbar.navbar-expand-lg {
+  background-color: rgb(214, 102, 50);
+}
+.navbar.navbar-expand-lg .navbar-nav > li > a {
+  background-color:  rgb(214, 102, 50);
+  display: inline-block;
+  color: white;
+}
+.navbar.navbar-expand-lg .navbar-nav > li > a:hover, .navbar.navbar-expand-lg .navbar-nav> li > a:focus {
+  color: black;
+}
+
+a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.navbar.navbar-expand-lg .navbar-nav > li >a::after {
+  content: attr(title);
+  font-weight: bold;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  border: 2px solid white;
+}
+.navbar.navbar-expand-lg .navbar-nav > .active,
+.navbar.navbar-expand-lg .navbar-nav > .active > a,
+.navbar.navbar-expand-lg .navbar-nav > .active > a:hover,
+.navbar.navbar-expand-lg .navbar-nav > .active > a:focus {
+  background-color:  rgb(214, 102, 50);
+  color: white;
+}
+.navbar.navbar-expand-lg .dropdown-menu {
+  background-color:  rgb(214, 102, 50);
+}
+.navbar.navbar-expand-lg .dropdown-menu > li > a {
+  color: white;
+}
+
+
+.navbar.navbar-expand-lg .navbar-nav li.dropdown.open > .dropdown-toggle,
+.navbar.navbar-expand-lg .navbar-nav li.dropdown.active > .dropdown-toggle,
+.navbar.navbar-expand-lg .navbar-nav li.dropdown.open.active > .dropdown-toggle {
+  background:  rgb(214, 102, 50);
+  color: white;
+}
+.navbar.navbar-expand-lg .navbar-nav>.dropdown>a:hover .caret {
+  border-bottom-color: white;
+  
+}
+.navbar.navbar-expand-lg .navbar-brand {
+  color: white;
+}
+.searhBar{
+  margin-top: 30px;
+}
+.navbar {
+  position: relative;
+  min-height: 70px !important;
+  margin-bottom: -2px !important;
+  border: 1px solid transparent !important;
+}
